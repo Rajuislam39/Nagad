@@ -1,4 +1,3 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 import 'Myhome.dart';
@@ -7,8 +6,8 @@ void main(){
   runApp(akk());
 }
 MaterialApp akk (){
-  return MaterialApp(
+  return const MaterialApp(
     debugShowCheckedModeBanner: false,
-    home: Myhome(),
+    home: MyHome(),
   );
 }

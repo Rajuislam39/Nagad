@@ -15,15 +15,13 @@ class _BalanceState extends State<Balance> {
       appBar: AppBar(
         actions: [
           ElevatedButton(onPressed: (){
-            Navigator.push(context, MaterialPageRoute(builder: (context) => Myhome()));
-          }, child: Text("Back Login page"))
+            Navigator.push(context, MaterialPageRoute(builder: (context) => const MyHome()));
+          }, child: const Text("Back Login page"))
         ],
       ),
       backgroundColor: Colors.redAccent,
       body:
-      Container(
-        child: ,
-      )
+      const Text("500 tk")
     );
   }
 }
